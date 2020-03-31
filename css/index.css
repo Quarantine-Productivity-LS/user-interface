@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  border: 1px blue solid;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  color: #383838;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #383838;
+  font-family: 'Baloo Tamma 2', cursive;
+}
+h1 {
+  font-size: 3.7rem;
+  margin-bottom: 2%;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.containerSK {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+#top-navSK {
+  padding: 1% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+#top-navSK .other-nav-divSK {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+#top-navSK .other-nav-divSK h1 {
+  width: 50%;
+  margin-top: 0;
+}
+#top-navSK .other-nav-divSK .nav-imageSK {
+  width: 8.5%;
+}
+#top-navSK .nav-sectionSK {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+#top-navSK .nav-sectionSK nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 55%;
+}
+#top-navSK .nav-sectionSK nav a {
+  margin-left: 2%;
+  font-size: 1.8rem;
+}
+#bottom-navSK {
+  padding: 1% 0;
+}
+#bottom-navSK .nav-sectionSK {
+  margin: 1% auto;
+  width: 20%;
+}
+#bottom-navSK .nav-sectionSK nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#bottom-navSK .nav-sectionSK a {
+  font-size: 1.5rem;
+}
+#bottom-navSK h4 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.hero-ES {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productivity-images-ES {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.productivity-images-ES img {
+  width: 40%;
+  border: 1.5px #eb7c74 solid;
+  border-radius: 10px;
+}
+.categories-container-ES {
+  display: flex;
+  justify-content: space-evenly;
+}
+.categories-ES {
+  width: 20%;
+}
+.categories-ES h4 {
+  text-align: center;
+}
+.categories-ES .button-container-ES {
+  display: flex;
+  justify-content: center;
+}
+.categories-ES .button-container-ES button {
+  font-size: 2rem;
+  background-color: #eb7c74;
+  border-radius: 10px;
+}
