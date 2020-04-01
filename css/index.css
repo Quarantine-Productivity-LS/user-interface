@@ -101,12 +101,8 @@ p {
   #top-navSK .nav-sectionSK nav {
     display: flex;
     justify-content: center;
-    width: 100%;
-  }
-}
-@media (max-width: 800px) and (max-width: 500px) {
-  #top-navSK .nav-sectionSK nav {
     flex-wrap: wrap;
+    width: 100%;
   }
 }
 #top-navSK .nav-sectionSK nav a {
@@ -115,7 +111,19 @@ p {
 }
 @media (max-width: 800px) {
   #top-navSK .nav-sectionSK nav a {
+    display: block;
+    background-color: #eb7c74;
+    width: 200px;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
     margin: 1% 1%;
+  }
+  #top-navSK .nav-sectionSK nav a:hover {
+    background-color: white;
+    color: #eb7c74;
   }
 }
 @media (max-width: 500px) {
