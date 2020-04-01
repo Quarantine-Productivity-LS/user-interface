@@ -1,13 +1,16 @@
 #top-navSK {
+	//position:fixed;//fixed nav setting
 	padding: 1% 0;
 	.flexMixin(@direction:row, @justify:center, @align:center);
 	flex-wrap: wrap;
 	margin: 0 auto;
 	.other-nav-divSK {
 		.flexMixin(@direction:row, @justify:space-between);
+
 		width: 100%;
 		h1 {
-			width: 50%;
+			width: 50%;//change for absolute nav
+			//width:100%;// for fixed nav
 			margin-top: 0;
 			@media @tablet{
 				width:100%;
@@ -28,6 +31,7 @@
 			@justify:center;
 		}
 		nav {
+			//background-image: radial-gradient(rgba(255,255,255,1),rgba(255,255,255,0.));//for fixed nav
 			width: 55%;
 			@media @tablet{
 				display:flex;
@@ -46,6 +50,14 @@
 		}
 	}
 }
+// #static-navSK{//fixed nav section
+// 	width:100%;
+// 	img{
+// 		width:100%;
+// 		position:fixed;
+// 		height:15vh;
+// 	}
+// }//fixed nav section
 #testimonialSK{
 	@media @phone{
 		width:80%;
