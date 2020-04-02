@@ -42,6 +42,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+
 @media (max-width: 800px) {
   .containerSK {
     max-width: 600px;
@@ -86,6 +87,9 @@ p {
     display: none;
   }
 }
+#top-navSK .other-nav-divSK .nav-imageSK {
+  width: 8.5%;
+}
 #top-navSK .nav-sectionSK {
   width: 100%;
   display: flex;
@@ -103,6 +107,12 @@ p {
     flex-wrap: wrap;
     width: 100%;
   }
+}
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 55%;
 }
 #top-navSK .nav-sectionSK nav a {
   margin-left: 2%;
@@ -170,6 +180,9 @@ p {
     margin: 1%;
   }
 }
+#bottom-navSK .nav-sectionSK a {
+  font-size: 1.5rem;
+}
 #bottom-navSK h4 {
   font-size: 1.5rem;
   text-align: center;
@@ -182,11 +195,23 @@ p {
 }
 .hero-ES p {
   width: 60%;
+.hero-ES h2 {
+  font-size: 5rem;
+  margin: 0;
+}
+.hero-ES p {
+  width: 80%;
+  border: 1.8px #eb7c74 solid;
+  border-radius: 15px;
 }
 @media (max-width: 500px) {
   .hero-ES {
     width: 100%;
   }
+}
+.hero-image-ES img {
+  border: 5px #eb7c74 solid;
+  border-radius: 45px;
 }
 .productivity-images-ES {
   display: flex;
@@ -197,6 +222,11 @@ p {
   width: 40%;
   border: 1.5px #eb7c74 solid;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .productivity-images-ES {
+    display: none;
+  }
 }
 .categories-container-ES {
   display: flex;
@@ -214,6 +244,7 @@ p {
   justify-content: space-around;
   align-items: center;
   width: 80%;
+  padding: 2% 0;
 }
 .categories-info-and-img-ES .categories-info-ES,
 .categories-info-and-img-ES .categories-section-img-container-ES {
@@ -228,10 +259,36 @@ p {
 .categories-info-and-img-ES h2 {
   text-align: center;
 }
+@media (max-width: 500px) {
+  .categories-info-and-img-ES {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .categories-info-and-img-ES img {
+    display: none;
+  }
+  .categories-info-and-img-ES p {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .categories-info-ES {
+    width: 100%;
+  }
+  .categories-info-ES p {
+    display: none;
+  }
+}
 .categories-section-ES {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .categories-section-ES {
+    width: 100%;
+  }
 }
 .categories-ES {
   width: 22%;
