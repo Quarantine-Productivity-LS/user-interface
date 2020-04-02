@@ -42,6 +42,17 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+
+@media (max-width: 800px) {
+  .containerSK {
+    max-width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .containerSK {
+    max-width: 320px;
+  }
+}
 #top-navSK {
   padding: 1% 0;
   display: flex;
@@ -62,6 +73,20 @@ p {
   width: 50%;
   margin-top: 0;
 }
+@media (max-width: 800px) {
+  #top-navSK .other-nav-divSK h1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+#top-navSK .other-nav-divSK .nav-imageSK {
+  width: 8.5%;
+}
+@media (max-width: 800px) {
+  #top-navSK .other-nav-divSK .nav-imageSK {
+    display: none;
+  }
+}
 #top-navSK .other-nav-divSK .nav-imageSK {
   width: 8.5%;
 }
@@ -73,6 +98,16 @@ p {
   align-items: center;
 }
 #top-navSK .nav-sectionSK nav {
+  width: 55%;
+}
+@media (max-width: 800px) {
+  #top-navSK .nav-sectionSK nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -83,6 +118,32 @@ p {
   margin-left: 2%;
   font-size: 1.8rem;
 }
+@media (max-width: 800px) {
+  #top-navSK .nav-sectionSK nav a {
+    display: block;
+    background-color: #eb7c74;
+    width: 200px;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 1%;
+    text-decoration: none;
+  }
+  #top-navSK .nav-sectionSK nav a:hover {
+    background-color: white;
+    color: #eb7c74;
+    border: 1px solid #eb7c74;
+  }
+}
+@media (max-width: 500px) {
+  #testimonialSK {
+    width: 80%;
+    text-align: center;
+    order: 10;
+  }
+}
 #bottom-navSK {
   padding: 1% 0;
 }
@@ -90,11 +151,34 @@ p {
   margin: 1% auto;
   width: 20%;
 }
+@media (max-width: 800px) {
+  #bottom-navSK .nav-sectionSK {
+    width: 35%;
+  }
+}
+@media (max-width: 500px) {
+  #bottom-navSK .nav-sectionSK {
+    width: 100%;
+  }
+}
 #bottom-navSK .nav-sectionSK nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 500px) {
+  #bottom-navSK .nav-sectionSK nav {
+    justify-content: center;
+  }
+}
+#bottom-navSK .nav-sectionSK a {
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  #bottom-navSK .nav-sectionSK a {
+    margin: 1%;
+  }
 }
 #bottom-navSK .nav-sectionSK a {
   font-size: 1.5rem;
@@ -109,6 +193,8 @@ p {
   flex-direction: column;
   align-items: center;
 }
+.hero-ES p {
+  width: 60%;
 .hero-ES h2 {
   font-size: 5rem;
   margin: 0;
