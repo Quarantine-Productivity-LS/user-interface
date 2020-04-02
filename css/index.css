@@ -118,7 +118,8 @@ p {
     border-radius: 10px;
     color: white;
     text-align: center;
-    margin: 1% 1%;
+    margin: 1%;
+    text-decoration: none;
   }
   #top-navSK .nav-sectionSK nav a:hover {
     background-color: white;
