@@ -1,5 +1,4 @@
 #top-navSK {
-
 	//position:fixed;//fixed nav setting
 
 	padding: 1% 0;
@@ -8,66 +7,49 @@
 	margin: 0 auto;
 	.other-nav-divSK {
 		.flexMixin(@direction:row, @justify:space-between);
-
-
 		width: 100%;
 		h1 {
-			width: 50%;//change for absolute nav
+			width: 50%; //change for absolute nav
 			//width:100%;// for fixed nav
 			margin-top: 0;
-			@media @tablet{
-				width:100%;
+			@media @tablet {
+				width: 100%;
 				text-align: center;
 			}
 		}
 		.nav-imageSK {
 			width: 8.5%;
-			@media @tablet{
-				display:none;
+			border: 2px solid @salmon;
+			border-radius: 15px;
+			@media @tablet {
+				display: none;
 			}
-
-		width: 100%;
-		h1 {
-			width: 50%;
-			margin-top: 0;
-		}
-		.nav-imageSK {
-			width: 8.5%;
-
 		}
 	}
 	.nav-sectionSK {
 		width: 100%;
 		.flexMixin(@justify:flex-end, @align:center);
 
-		@media @tablet{
-			@justify:center;
+		@media @tablet {
+			@justify: center;
 		}
 		nav {
 			//background-image: radial-gradient(rgba(255,255,255,1),rgba(255,255,255,0.));//for fixed nav
 			width: 55%;
-			@media @tablet{
-				display:flex;
-				justify-content:center;
+			@media @tablet {
+				display: flex;
+				justify-content: center;
 				flex-wrap: wrap;
 				width: 100%;
-		}
+			}
 			a {
 				margin-left: 2%;
 				font-size: 1.8rem;
-				@media @tablet{
+				@media @tablet {
 					.button-specs();
-					margin:1%;
-					text-decoration:none;
+					margin: 1%;
+					text-decoration: none;
 				}
-
-		nav {
-			.flexMixin(@justify:flex-end, @align:center);
-			width: 55%;
-			a {
-				margin-left: 2%;
-				font-size: 1.8rem;
-
 			}
 		}
 	}
@@ -81,11 +63,11 @@
 // 		height:15vh;
 // 	}
 // }//fixed nav section
-#testimonialSK{
-	@media @phone{
-		width:80%;
-		text-align:center;
-		order:10;
+#testimonialSK {
+	@media @phone {
+		width: 80%;
+		text-align: center;
+		order: 10;
 	}
 }
 #bottom-navSK {
@@ -93,31 +75,23 @@
 	.nav-sectionSK {
 		margin: 1% auto;
 		width: 20%;
-
-		@media @tablet{
-			width:35%;
+		@media @tablet {
+			width: 35%;
 		}
-		@media @phone{
-			width:100%;
+		@media @phone {
+			width: 100%;
 		}
 		nav {
 			.flexMixin(@direction:row, @justify:space-between, @align:center);
-			@media @phone{
-				justify-content:center;
+			@media @phone {
+				justify-content: center;
 			}
 		}
 		a {
 			font-size: 1.5rem;
-			@media @phone{
-				margin:1%;
+			@media @phone {
+				margin: 1%;
 			}
-
-		nav {
-			.flexMixin(@direction:row, @justify:space-between, @align:center);
-		}
-		a {
-			font-size: 1.5rem;
-
 		}
 	}
 	h4 {
